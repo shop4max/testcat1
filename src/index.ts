@@ -1,7 +1,7 @@
 export default {
   async fetch(request, env) {
     const inputs = {
-      prompt: "cyberpunk cats",
+      prompt: "cyberpunk cat",
     };
 
     const response = await env.AI.run(
